@@ -17,7 +17,7 @@ public class SnsService {
     private final SnsClient snsClient;
 
     private static final String TOPIC_ARN =
-            "arn:aws:sns:us-east-1:528917412698:assurance-academy-topic";
+            "arn:aws:sns:us-east-2:528917412698:assurance-academy-topic";
 
 
     public SnsService(SnsClient snsClient) {
